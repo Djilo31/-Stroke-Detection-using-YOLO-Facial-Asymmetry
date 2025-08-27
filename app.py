@@ -5,7 +5,7 @@ from datetime import datetime
 import numpy as np
 
 # Charger le modèle (inchangé)
-model = YOLO("/kaggle/input/stroke-ia/best.pt")
+model = YOLO("best.pt")
 
 save_dir = "./results"
 os.makedirs(save_dir, exist_ok=True)
@@ -103,3 +103,4 @@ with gr.Blocks(theme=gr.themes.Soft(primary_hue="blue")) as demo:
     """.format(year=datetime.now().year))
 
 demo.launch(share=True)
+
