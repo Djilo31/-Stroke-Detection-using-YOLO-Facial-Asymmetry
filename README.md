@@ -1,2 +1,10 @@
-# -Stroke-Detection-using-YOLO-Facial-Asymmetry
-Ce projet utilise YOLO pour détecter des signes précoces d’AVC (Accident Vasculaire Cérébral) en analysant l’asymétrie faciale, notamment la position des yeux et de la bouche. L’objectif est de fournir un outil rapide et précis pour détecter des symptômes potentiels à partir d’images ou de vidéos, facilitant ainsi une intervention médicale .
+# Stroke-IA 🧠
+Prototype d’IA pour la détection d’AVC via webcam et images.  
+⚠️ Cet outil est un prototype de démonstration – il ne remplace pas un avis médical.  
+
+**Auteur** : Badsi Djilali – Ingénieur IA Deep Learning  
+
+
+🧠 Stroke-IA — AI Prototype for Stroke Sign Detection
+Built a YOLOv8-based model with a Gradio interface for analyzing images, videos, and webcam streams to detect early stroke indicators.
+⚠️ Research prototype — not for medical use.
