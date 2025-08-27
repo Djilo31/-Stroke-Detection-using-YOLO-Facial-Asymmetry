@@ -55,9 +55,8 @@ def predict_image(image):
 
 
     # Bandeau + logo
-st.title("🧠 Stroke-IA – Détection d'AVC par IA")
 
-   st.title("🧠 Stroke-IA – Détection d'AVC par IA")
+st.title("🧠 Stroke-IA – Détection d'AVC par IA")
 st.markdown("""
 Prototype d’analyse d’images & vidéos (usage démo, non médical).  
 Créé et propulsé par **Badsi Djilali — Ingénieur IA / Deep Learning**
@@ -85,5 +84,6 @@ st.markdown("""
 ⚠️ **Disclaimer :** Stroke-IA est une démonstration technique. Les résultats ne constituent pas un avis médical.
 © {year} — Badsi Djilali. Tous droits réservés.
 """.format(year=datetime.now().year))
+
 
 
