@@ -10,7 +10,7 @@ model = YOLO("best.pt")
 save_dir = "./results"
 os.makedirs(save_dir, exist_ok=True)
 
-# ----------------- Détection vidéo (inchangé) -----------------
+# ----------------- Détection vidéo  -----------------
 def predict_video(video_path):
     cap = cv2.VideoCapture(video_path)
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')
@@ -51,7 +51,7 @@ def predict_image(image):
 
     return out_path
 
-# ----------------- Interface Gradio (mise en forme uniquement) -----------------
+# ----------------- Interface Gradio -----------------
 with gr.Blocks(theme=gr.themes.Soft(primary_hue="blue")) as demo:
     # Bandeau + logo SVG inline (pas d'appel internet)
     gr.HTML("""
@@ -103,4 +103,5 @@ with gr.Blocks(theme=gr.themes.Soft(primary_hue="blue")) as demo:
     """.format(year=datetime.now().year))
 
 demo.launch(share=True)
+
 
